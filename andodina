@@ -1,16 +1,63 @@
-var r = Number(prompt("write a number "));
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1 id="news__title">
+            Spin IT Breaking News
+        </h1>
+        <video width="400" height="300" controls="controls" src="./assets/cat.mp4"></video>
+        <p class="news__brief">
+            Коту Пуське сегодня вставать в 6 часов утра &#128561;! Скорее оставьте ему слова поддержки &#129392;.
+        </p>
 
-function f1(r) {
-  for (var k = 0;k <= r;k++) {
-    switch(k) {
-      case 5: console.log("пять"); break;
-      case 13: console.log("тринадцать"); break;
-      case 22: console.log("двадцать два"); break;
-      case 35: console.log("тридцать пять"); break; 
-      case 98: console.log("девяносто восемь"); break;
-      default: console.log(k);
+        <div class="news__comment_add">
+            <textarea name="comm" id="textarea" rows="5" placeholder="Ваш комментарий"></textarea>
+            <button id="button">
+                Добавить
+            </button>
+        </div>
+        <div id="commHolder"></div>
+    </div>
+
+    <script>
+    let button = document.querySelector("#button");
+let oId = localStorage.getItem ("0");
+
+function show (){
+    
+    if (oId>0){
+        for (var i = 0; i < oId; i++){
+            document.querySelector('#commHolder').insertAdjacentHTML("afterbegin",`<p>${localStorage.getItem(i)}</p>`);
+
+        }
     }
-  }
 }
+show();
+button.onclick = function (e) { 
+    let comment = document.querySelector("#textarea").value ;
+       if (comment.value !== ""){
+            var nId = 0;
+            
+            if (oId>nId){
+                nId= oId;
+            }
+            nId++;         
+            localStorage.setItem(nId, comment);
+            c = document.querySelector("#commHolder").insertAdjacentHTML("afterbegin",`<p>${comment}</p>`);
+            oId = nId;
+            localStorage.setItem ("0", oId);
+       
+        }
 
-f1(r)
+    
+}
+    
+    </script>
+</body>
+</html>
