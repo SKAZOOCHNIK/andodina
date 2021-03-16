@@ -1,63 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-    <div class="wrapper">
-        <h1 id="news__title">
-            Spin IT Breaking News
-        </h1>
-        <video width="400" height="300" controls="controls" src="./assets/cat.mp4"></video>
-        <p class="news__brief">
-            Коту Пуське сегодня вставать в 6 часов утра &#128561;! Скорее оставьте ему слова поддержки &#129392;.
-        </p>
+<div class="wrapper">
+<h1 id="news__title">
+Spin IT Breaking News
+</h1>
+<video width="400" height="300" controls="controls" src="./assets/cat.mp4"></video>
+<p class="news__brief">
+Коту Пуське сегодня вставать в 6 часов утра 😱! Скорее оставьте ему слова поддержки 🥰.
+</p>
 
-        <div class="news__comment_add">
-            <textarea name="comm" id="textarea" rows="5" placeholder="Ваш комментарий"></textarea>
-            <button id="button">
-                Добавить
-            </button>
-        </div>
-        <div id="commHolder"></div>
-    </div>
+<div class="news__comment_add">
+<textarea id="textarea" rows="5" placeholder="Ваш комментарий" ></textarea>
+<button id="button">
+Добавить
+</button>
+</div>
 
-    <script>
-    let button = document.querySelector("#button");
-let oId = localStorage.getItem ("0");
+<div id="commHolder"></div>
 
-function show (){
-    
-    if (oId>0){
-        for (var i = 0; i < oId; i++){
-            document.querySelector('#commHolder').insertAdjacentHTML("afterbegin",`<p>${localStorage.getItem(i)}</p>`);
+</div>
 
-        }
-    }
+<script>
+let button = document.querySelector("#button");
+let commHolder = document.querySelector("#commHolder")
+let arr = [];
+
+if (!localStorage.getItem("comments")) {
+localStorage.setItem("comments",JSON.stringify([]));
 }
-show();
-button.onclick = function (e) { 
-    let comment = document.querySelector("#textarea").value ;
-       if (comment.value !== ""){
-            var nId = 0;
-            
-            if (oId>nId){
-                nId= oId;
-            }
-            nId++;         
-            localStorage.setItem(nId, comment);
-            c = document.querySelector("#commHolder").insertAdjacentHTML("afterbegin",`<p>${comment}</p>`);
-            oId = nId;
-            localStorage.setItem ("0", oId);
-       
-        }
 
-    
+arr = JSON.parse(localStorage.getItem("comments"));
+
+for (let i = 0;i < arr.length;i++) {
+document.querySelector("#commHolder").insertAdjacentHTML("afterbegin",`<p>${arr[i]}</p>`);
 }
-    
-    </script>
+
+button.onclick = function () {
+let comment = document.querySelector("#textarea").value;
+document.querySelector("#commHolder").insertAdjacentHTML("afterbegin",`<p>${comment}</p>`);
+arr.push(comment);
+localStorage.setItem("comments",JSON.stringify(arr));
+}
+</script>
 </body>
 </html>
