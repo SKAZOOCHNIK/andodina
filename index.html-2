@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TrueFruit</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+	<title>Fixed Menu</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+		<header id="header" class="header">
+			<div class="container">
+				<div class="nav">
+					<img src="img/laga.svg" alt="TrueFruit" class="logo">
+					<ul class="menu">
+						<li>
+							<a href="#">
+								Каталог
+							</a>
+						</li>
+
+						<li>
+							<a href="#">
+								Доставка
+							</a>
+						</li>
+
+						<li>
+							<a href="#">
+								О нас
+							</a>
+						</li>
+
+						<li>
+							<a href="#">
+								Бизнес
+							</a>
+						</li>
+					</ul>
+
+					<ul>
+						<a href="#" class="man">
+							<img src="img/men.svg" alt="man" class="man">
+						</a>
+					</ul>
+
+					<ul>
+						<a href="#" class="korz">
+							<img src="img/shop.svg" alt="basket" class="basket">
+						</a>
+					</ul>
+
+					<ul>
+							<a href="#" class="cost">
+								11 754 р.
+							</a>	
+					</ul>			
+				</div>
+			</div>	
+		</header>
+		
+		<section id="about" class="about">
+			<center class="container">
+				<div class="baida">
+					<style>
+   							.colortext { color: #217CA3;}
+  					</style>
+				<h1>
+					Твои  <span class="colortext"> сочные </span> фрукты и овощи
+				</h1>
+				<h1>
+					с доставкой в дом и офис. 
+				</h1>
+
+				</div>
+			</center>
+		
+		</section>	
+
+		<div class="main">
+			<div class="container">
+
+				<ul class="prod"> 
+
+			 	<a href="#" class="button">
+					<h1 class="textic" >Новые поступления</h1>
+          		
+          			<img src="img/grey.png" alt="grey" class="grey" > 
+
+          			<img src="img/banana.png" alt="banana" class="banana"> 
+
+          			<img src="img/qivi.png" alt="qivi" class="qivi"> 
+          		</a>
+
+				</ul>
+
+	<!-- <div class="container"> -->
+				<ul class="prod_1"> 
+
+			 	<a href="#" class="button">
+
+					<h1 class="textic_1" >Коробки </h1>
+          		
+          			<img src="img/grey.png" alt="grey" class="grey_1 lose"  > 
+
+          			<img src="img/banana.png" alt="banana" class="banana righ"> 
+
+          			<img src="img/qivi.png" alt="qivi" class="qivi_1 righted" > 
+          		</a>
+
+				</ul>
+			</div>	
+<div class knopki>
+				<div class="container">
+	<div class="persent">
+				<ul class="prod_50"> 
+
+			 		<a href="#" class="button">
+
+						<h1 class="textic_50" >Коробки </h1>
+          		
+          				<img src="img/grey.png" alt="grey" class="grey_1 lose" > 
+          			</a>
+
+          		<ul>
+    </div>      			
+
+<div class="persent">
+<ul class="prod_60"> 
+			
+			 		<a href="#" class="button">
+
+						<h1 class="textic_50" >Коробки </h1>
+          		
+          				<img src="img/grey.png" alt="grey" class="grey_1 lose" > 
+          			</a>
+          		
+          		<ul>
+
+    </div>  
+
+    </div>    	
+    </div> 		
+
+			</div>
+		</div>			
+</body>
+</html>
