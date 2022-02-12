@@ -204,6 +204,7 @@ footer
 	left: 0;
 	top: 0;
 	background-color: rgba(0, 0, 0, .7);
+	backdrop-filter: blur(15px);
 	z-index: 1002;
 	transform: translate(0%) scale(0);
 	transition: .6s ease-in-out;
@@ -288,7 +289,7 @@ top: 0;
 left: 0;
 background-color: rgba(	240, 239,234, 0.2);
 border: 1px solid #217CA3;
-backdrop-filter: blur(20px);
+backdrop-filter: blur(25px);
 animation-name: show_header;
 animation-duration: 1s;
 }
@@ -321,4 +322,15 @@ animation-duration: 1s;
 	display: inline-block;
 	text-align: right;
 
+}
+.style ul
+{
+align-items: center;
+display: flex;
+padding-top: 50px;
+}
+
+.lemon
+{
+padding-right: 70px;
 }
