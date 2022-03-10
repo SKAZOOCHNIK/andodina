@@ -1,0 +1,162 @@
+<div class="container" class="categorii">
+				<div class="bokcategor">
+					<ul class="bokcategor_1">
+						<li>
+							<button class="cot_button" data-filter="prodyct_new">
+								<img src="img/new.png">
+							</button>
+						</li>
+						<li>
+							<button class="cot_button" data-filter="all">
+								<img src="img/korobka.png">
+							</button>
+						</li>
+						<li>
+							<button class="cot_button" data-filter="prodyct_1">
+								<img src="img/skidka.png">
+							</button>
+						</li>
+						<li>
+							<button class="cot_button" data-filter="listik">
+								<img src="img/listik.png">
+							</button>
+						</li>
+						<li>
+							<button class="cot_button" data-filter="oreh">
+								<img src="img/oreh.png">
+							</button>
+						</li>
+						<li>
+							<button class="cot_button" data-filter="avokad">
+								<img src="img/avokad.png">
+							</button>
+						</li>
+					</ul>
+
+				</div>
+				<div class="categor prodyct_new prodyct_g" style="flot: right">
+					<div class="cot_new">
+						<ul class="menu">
+							<li>
+								<img src="img/new.png">
+							</li>
+							<li>
+								<p>Новинки</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="prodyct prodyct_new prodyct_g">
+						
+ 						
+ 							<li>
+ 								
+ 									<img src="img/bababanas-min.png" alt="banana" class="banana"> 					
+ 							</li>
+
+ 							<ul>
+ 								<ul class="Bananas">
+ 						<li class="text">	
+ 								<li>
+ 									<h1 class="text"> Бананы </h1>  		
+ 								</li>	
+
+ 								<li >
+ 									<h2 class="text-2"> Тайланд </h2> 
+ 								</li>
+
+ 								<li >
+ 									<h2 class="text"> 540 г.&nbsp;&nbsp; &nbsp;330 ккал. </h2>
+ 								</li>
+ 								</ul>
+ 						</li>	
+ 							
+
+ 						</ul>
+
+					<li class="costs">
+ 									<h3> 400 р.</h3>
+ 								</li>
+ 						
+ 							<li style="padding-left: 45px;">
+ 								<a href="#" class="push">
+ 								<h2>добавить</h2>
+ 								</a>
+ 							</li>	
+					</div>
+					<div class="prodyct prodyct_new prodyct_g">
+						
+ 						
+ 							<li>
+ 								
+ 									<img src="img/bababanas-min.png" alt="banana" class="banana"> 					
+ 							</li>
+
+ 							<ul>
+ 								<ul class="Bananas">
+ 						<li class="text">	
+ 								<li>
+ 									<h1 class="text"> Бананы </h1>  		
+ 								</li>	
+
+ 								<li >
+ 									<h2 class="text-2"> Тайланд </h2> 
+ 								</li>
+
+ 								<li >
+ 									<h2 class="text"> 540 г.&nbsp;&nbsp; &nbsp;330 ккал. </h2>
+ 								</li>
+ 								</ul>
+ 						</li>	
+ 							
+
+ 						</ul>
+
+					<li class="costs">
+ 									<h3> 400 р.</h3>
+ 								</li>
+ 						
+ 							<li style="padding-left: 45px;">
+ 								<a href="#" class="push">
+ 								<h2>добавить</h2>
+ 								</a>
+ 							</li>	
+					</div>
+					<div class="prodyct prodyct_new prodyct_g">
+						
+ 						
+ 							<li>
+ 								
+ 									<img src="img/bababanas-min.png" alt="banana" class="banana"> 					
+ 							</li>
+
+ 							<ul>
+ 								<ul class="Bananas">
+ 						<li class="text">	
+ 								<li>
+ 									<h1 class="text"> Бананы </h1>  		
+ 								</li>	
+
+ 								<li >
+ 									<h2 class="text-2"> Тайланд </h2> 
+ 								</li>
+
+ 								<li >
+ 									<h2 class="text"> 540 г.&nbsp;&nbsp; &nbsp;330 ккал. </h2>
+ 								</li>
+ 								</ul>
+ 						</li>	
+ 							
+
+ 						</ul>
+
+					<li class="costs">
+ 									<h3> 400 р.</h3>
+ 								</li>
+ 						
+ 							<li style="padding-left: 45px;">
+ 								<a href="#" class="push">
+ 								<h2>добавить</h2>
+ 								</a>
+ 							</li>	
+					</div>

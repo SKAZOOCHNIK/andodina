@@ -1,0 +1,36 @@
+	<div class="container">
+				<div class="bokcategor">
+					<ul class="bokcategor_1">
+						<li>
+							<button class="cot_button" >
+								<img src="img/new.png">
+							</button>
+						</li>
+						<li>
+							<button class="cot_button">
+								<img src="img/korobka.png">
+							</button>
+						</li>
+						<li>
+							<button class="cot_button">
+								<img src="img/skidka.png">
+							</button>
+						</li>
+						<li>
+							<button class="cot_button">
+								<img src="img/listik.png">
+							</button>
+						</li>
+						<li>
+							<button class="cot_button">
+								<img src="img/oreh.png">
+							</button>
+						</li>
+						<li>
+							<button class="cot_button">
+								<img src="img/avokad.png">
+							</button>
+						</li>
+					</ul>
+				</div>
+			</div>
